@@ -1,1 +1,2 @@
 source "$BR2_EXTERNAL/package/python-pyaudio/Config.in"
+source "$BR2_EXTERNAL/package/pocketsphinx/Config.in"
