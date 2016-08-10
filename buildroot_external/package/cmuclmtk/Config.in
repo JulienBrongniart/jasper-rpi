@@ -1,0 +1,5 @@
+config BR2_PACKAGE_CMUCLMTK
+	bool "cmuclmtk"
+	help
+		Add cmuclmtk software in rootfs directory
+
