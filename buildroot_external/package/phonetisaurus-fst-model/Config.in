@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PHONETISAURUS_FST_MODEL
+	bool "phonetisaurus-fst-model"
+	help
+		Add phonetisaurus FST model software in rootfs directory
