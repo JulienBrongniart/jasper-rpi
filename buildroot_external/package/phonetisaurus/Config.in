@@ -1,0 +1,5 @@
+config BR2_PACKAGE_PHONETISAURUS
+	bool "phonetisaurus"
+	help
+		Add phonetisaurus software in rootfs directory
+	depends on BR2_PACKAGE_OPENFST

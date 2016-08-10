@@ -1,0 +1,4 @@
+config BR2_PACKAGE_OPENFST
+	bool "openfst"
+	help
+		Add openfst software in staging
