@@ -1,0 +1,5 @@
+config BR2_PACKAGE_JULIUS
+	bool "julius"
+	help
+		Add julius
+ 
