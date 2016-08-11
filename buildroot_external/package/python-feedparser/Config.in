@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_FEEDPARSER
+	bool "python-feedparser"
+	help
+		Add feedparser python module
