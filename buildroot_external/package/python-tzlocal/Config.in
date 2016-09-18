@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_TZLOCAL
+	bool "python-tzlocal"
+	select BR2_PACKAGE_PYTHON_PYTZ # runtime
+	help
+	  tzinfo object for the local timezone.
+
+	  https://github.com/regebro/tzlocal

@@ -1,0 +1,13 @@
+config BR2_PACKAGE_PYTHON_APSCHEDULER
+	bool "python-apscheduler"
+	depends on BR2_PACKAGE_PYTHON_SETUPTOOLS_SCM
+	select BR2_PACKAGE_PYTHON_SETUPTOOLS # runtime
+	select BR2_PACKAGE_PYTHON_SIX # runtime
+	select BR2_PACKAGE_PYTHON_PYTZ # runtime
+	select BR2_PACKAGE_PYTHON_TZLOCAL # runtime
+	select BR2_PACKAGE_PYTHON_FUTURES # runtime
+	select BR2_PACKAGE_PYTHON_FUNCSIGS # runtime
+	help
+	  In-process task scheduler with Cron-like capabilities.
+
+	  https://github.com/agronholm/apscheduler

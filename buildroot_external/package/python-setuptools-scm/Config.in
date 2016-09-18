@@ -1,0 +1,4 @@
+config BR2_PACKAGE_PYTHON_SETUPTOOLS_SCM
+	bool "python-setuptools-scm"
+	help
+	  Add setuptools-scm python package
