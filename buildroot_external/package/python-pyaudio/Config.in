@@ -1,10 +1,10 @@
-comment "python-pyaudio depends on Python and Portaudio"
-	depends on !BR2_PACKAGE_PYTHON || !BR2_PACKAGE_PORTAUDIO
-	depends on !BR2_PACKAGE_PYTHON3 || !BR2_PACKAGE_PORTAUDIO
-
 config BR2_PACKAGE_PYTHON_PYAUDIO
 	bool "python-pyaudio"
 	depends on BR2_PACKAGE_PYTHON || BR2_PACKAGE_PYTHON3
 	depends on BR2_PACKAGE_PORTAUDIO
+
 	help
-	  The PyAudio package
+	  Bindings for PortAudio v19, the cross-platform audio input/output
+	  stream library.
+
+	  http://people.csail.mit.edu/hubert/pyaudio/

@@ -1,5 +1,9 @@
 config BR2_PACKAGE_PYTHON_CMUCLMTK
 	bool "python-cmuclmtk"
 	depends on BR2_PACKAGE_CMUCLMTK
+
 	help
-		Add cmuclmtk python bindings in rootfs directory
+	  Wrapper library for accessing the language model tools for CMU
+	  Sphinx (CMUCLMTK).
+
+	  https://github.com/Holzhaus/python-cmuclmtk
